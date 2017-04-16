@@ -6,9 +6,9 @@
         http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd">
 
     <!--<jdbc:initialize-database data-source="dataSource"-->
-                              <!--enabled="true">-->
-        <!--<jdbc:script location="classpath:db-schema.sql"/>-->
-        <!--<jdbc:script location="classpath:db-test-data.sql"/>-->
+    <!--enabled="true">-->
+    <!--<jdbc:script location="classpath:db-schema.sql"/>-->
+    <!--<jdbc:script location="classpath:db-test-data.sql"/>-->
     <!--</jdbc:initialize-database>-->
 
     <bean id="dataSource"
