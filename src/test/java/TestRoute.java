@@ -24,7 +24,7 @@ public class TestRoute {
             @Override
             public void configure() throws Exception {
                 // intercept sending to sql and do something else
-                interceptSendToEndpoint("sql:.*")
+                interceptSendToEndpoint("sql:.SELECT * FROM ARTICLES WHERE CATEGORY='Camel'")
                         .skipSendToOriginalEndpoint()
                         .process(new Processor() {
                             public void process(Exchange exchange) throws Exception {
